@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.adresses {
+}
+.email-addres {
+  color: #434455;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.tell-phone {
+  color: #434455;
+}
+.adresses .email-addres:hover {
+  color: #404bbf;
+}
+.adresses .email-addres:focus {
+  color: #404bbf;
+}
+.adresses .tell-phone:hover {
+  color: #404bbf;
+}
+.adresses .tell-phone:focus {
+  color: #404bbf;
+}
