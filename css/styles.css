@@ -58,7 +58,7 @@ body {
 }
 /* Hero */
 .hero-title {
-  font-style: normal;
+  color: var(--primary-white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -66,7 +66,6 @@ body {
 /* Sections  */
 .section-title {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -76,11 +75,10 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .section .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -91,11 +89,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-.features-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.projects-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
+
 /* Buttom */
 .button {
   font-family: 'Roboto';
@@ -104,7 +104,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-
 .pointer {
   cursor: pointer;
 }
