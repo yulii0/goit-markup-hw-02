@@ -12,6 +12,11 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 }
+p {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
 .list {
   list-style: none;
 }
@@ -83,12 +88,6 @@ body {
   line-height: 1.5;
 }
 /* Features */
-.features .title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
 .projects-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -106,4 +105,10 @@ body {
 }
 .pointer {
   cursor: pointer;
+}
+/* footer */
+.footer-text {
+  color: #e7e9fc;
+  font-size: 16px;
+  line-height: 1.5;
 }
