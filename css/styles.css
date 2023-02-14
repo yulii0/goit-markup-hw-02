@@ -26,8 +26,9 @@ body {
 }
 
 /* Header */
-.logo {
-  color: var(--title-text-color);
+.logo-header,
+.logo-footer {
+  color: var(--accent-color);
   text-decoration: none;
   font-family: 'Raleway';
   text-transform: uppercase;
@@ -36,10 +37,10 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
 }
-.logo-part {
-  color: var(--accent-color);
+.logo-header-decor {
+  color: #2e2f42;
 }
-.logo-part2 {
+.logo-footer-decor {
   color: #f4f4fd;
 }
 
