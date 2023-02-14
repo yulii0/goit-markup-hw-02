@@ -4,6 +4,7 @@
   --primary-white-color: #fff;
   --accent-color: #4d5ae5;
   --accent-active-color: #404bbf;
+  --primary-background-color: #2e2f42;
 }
 
 body {
@@ -20,6 +21,9 @@ body {
 .list {
   list-style: none;
 }
+.underlining {
+  text-decoration: none;
+}
 
 /* Header */
 .logo {
@@ -31,6 +35,12 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+}
+.logo-part {
+  color: var(--accent-color);
+}
+.logo-part2 {
+  color: #f4f4fd;
 }
 
 .site-nav a {
@@ -45,6 +55,9 @@ body {
   color: var(--accent-active-color);
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts-email {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -62,6 +75,9 @@ body {
   color: var(--accent-active-color);
 }
 /* Hero */
+.hero {
+  background: var(--primary-background-color);
+}
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 700;
@@ -69,6 +85,9 @@ body {
   line-height: 1.07;
 }
 /* Sections  */
+.hidden-title {
+  display: none;
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -82,7 +101,9 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-
+.section a {
+  text-decoration: none;
+}
 .section .position {
   font-size: 16px;
   line-height: 1.5;
@@ -95,18 +116,62 @@ body {
   line-height: 1.2;
 }
 
-/* Buttom */
-.button {
+/* Buttons */
+.hero-button {
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  color: var(--primary-white-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+.filter-button {
+  background-color: #f4f4fd;
+  width: 116px;
+  height: 48px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  /* border: none; */
+
+  color: #4d5ae5;
+  align-items: center;
+  text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #404bbf;
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .pointer {
   cursor: pointer;
 }
-/* footer */
+/* Footer */
+.footer {
+  background: var(--primary-background-color);
+}
 .footer-text {
   color: #e7e9fc;
   font-size: 16px;
