@@ -12,6 +12,16 @@
   --modal-overlay: #2e2f42;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: var(--primary-white);
   color: var(--primary-text);
@@ -22,9 +32,6 @@ body {
   color: var(--primary-text);
   font-size: 16px;
   line-height: 1.5;
-}
-.list {
-  list-style: none;
 }
 .underlining {
   text-decoration: none;
@@ -48,7 +55,9 @@ body {
 .logo-footer-decor {
   color: var(--light);
 }
-
+.site-nav {
+  list-style: none;
+}
 .site-nav a {
   color: var(--primary-title-text);
   text-decoration: none;
@@ -63,6 +72,7 @@ body {
 
 .contacts {
   font-style: normal;
+  list-style: none;
 }
 .contacts-email,
 .contacts-tel {
@@ -107,11 +117,15 @@ body {
 .section a {
   text-decoration: none;
 }
+.section ul {
+  list-style: none;
+}
 .section .position {
   font-size: 16px;
   line-height: 1.5;
 }
-/* Features */
+/* Specifics */
+
 .projects-title {
   color: var(--primary-title-text);
   font-weight: 500;
