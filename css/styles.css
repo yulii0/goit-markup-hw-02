@@ -259,7 +259,7 @@ address {
 .team-list-text {
   margin-top: 8px;
 }
-.card-content {
+.team-list-item-content {
   display: block;
   text-align: center;
   padding: 32px 16px;
